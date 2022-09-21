@@ -4,6 +4,10 @@
   margin: 0%;
 }
 
+body, h1, ul, li {
+  margin: 0;
+}
+
 body nav {
   display: flex;
   width: 100%;
@@ -28,9 +32,10 @@ body nav .nav-right label {
     text-align: end;
     line-height: 50px;
     margin: 0 15px;
+    cursor: pointer;
   }
 }
-body nav .nav-right #burger {
+body nav .nav-right input {
   display: none;
 }
 body nav .nav-right ul {
@@ -95,7 +100,7 @@ body main #img-container .box-top {
 }
 @media (max-width: 600px) {
   body main #img-container .box-top {
-    width: 96%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
