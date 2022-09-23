@@ -167,6 +167,7 @@ body{
                             flex-direction: column;
                             flex-wrap: wrap;  
                         }
+                        //將文字固定在圖片上，需要考慮容器長寬，文字也要設定長寬才能使之定位
                     .item{
                         width: 100%;
                         margin:10px;
